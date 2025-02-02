@@ -37,6 +37,7 @@ return [
 
     'xendit' => [
         'secret' => env('XENDIT_SECRET_KEY'),
+        'webhook_url' => env('XENDIT_WEBHOOK_URL'),
     ],
 
 
